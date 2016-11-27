@@ -1,0 +1,16 @@
+{
+  "name": "ghpages-react-es6-bs3-sass-webpack",
+  "version": "0.0.1",
+  "description": "Example ghpages repo, configured with react, babel, bootstrap 3, sass and webpack",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "webpack": "^1.13.3"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  }
+}
