@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "transform-es2015-modules-commonjs"
+  ],
+  "presets": ["react", "es2015"],
+  "env": {
+    "development": {
+      "plugins": [["react-transform", {
+        "transforms": [{
+          "transform": "react-transform-hmr",
+          "imports": ["react"],
+          "locals": ["module"]
+        }]
+      }]]
+    }
+  }
+}
