@@ -44,9 +44,10 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	document.write('welcome to my app')
-	console.log('app loaded')
+	'use strict';
 
+	document.write('welcome to my app');
+	console.log('app loaded');
 
 /***/ }
 /******/ ]);
