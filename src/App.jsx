@@ -1,8 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React, { PropTypes } from 'react'
 import Hello from './components/Hello'
 
-ReactDOM.render(
-  <Hello name="from React" />,
-  document.getElementById('root')
-)
+class App extends React.Component {
+  render () {
+    return (
+      <Hello name="from React"/>
+    )
+  }
+}
+
+export default App;

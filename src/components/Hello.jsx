@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React, { PropTypes } from 'react'
 
-export default class Hello extends Component {
- render() {
-   return (
-     <div>
-         Hello {this.props.name}!
-     </div>
-   )
- }
+const Hello = (props) => {
+  return (
+    <h1>Hello {props.name}!</h1>
+  )
 }
+
+export default Hello

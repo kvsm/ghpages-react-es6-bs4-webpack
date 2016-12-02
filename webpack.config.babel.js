@@ -1,7 +1,7 @@
 import validate from 'webpack-validator'
 
 const config = {
-  entry: './src/App.jsx',
+  entry: './src/index.js',
   output: {
     path: 'docs/assets/js/',
     publicPath: 'assets/js/',
