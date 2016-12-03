@@ -4,7 +4,7 @@ import Hello from './components/Hello'
 class App extends React.Component {
   render () {
     return (
-      <div className="container-fluid" style={{"maxWzidth": "960px"}}>
+      <div className="container-fluid" style={{"maxWidth": "960px"}}>
         <div className="jumbotron">
           <h1 className="text-xs-center">ghpages-react-es6-bs4-webpack</h1>
           <h3 className="text-xs-center"><small className="text-muted">Quickly publish your frontend demos to GitHub Pages, using React, ES6, Bootstrap 4, and Webpack</small></h3>
