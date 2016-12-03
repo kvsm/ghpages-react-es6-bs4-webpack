@@ -10,7 +10,7 @@ Quickly publish your frontend demos to GitHub Pages, using React, ES6, Bootstrap
 3.  On the same settings page, scroll down to the **GitHub Pages** section, and change the **source** to `Master branch /docs folder`
 4.  Clone your fork to your local machine.
 5.  Run `npm install`. This will install required dependencies.
-6.  Run `npm run build`. This will compile your assests and generate a bundle in the `docs/assets` directory.
+6.  Run `npm run build`. This will compile your assets and generate a bundle in the `docs/assets` directory.
 7.  Commit the new bundle to git and push to GitHub.
 8.  That's it! Your project is now live at:
     `http://your-github-username.github.io/your-project-name`

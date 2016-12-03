@@ -17,7 +17,7 @@ class App extends React.Component {
             <li>On the same settings page, scroll down to the <strong>GitHub Pages</strong> section, and change the <strong>source</strong> to <code>Master branch /docs folder</code>.</li>
             <li>Clone your fork to your local machine.</li>
             <li>Run <code>npm install</code>. This will install required dependencies.</li>
-            <li>Run <code>npm run build</code>. This will compile your assests and generate a bundle in the <code>docs/assets</code> directory.</li>
+            <li>Run <code>npm run build</code>. This will compile your assets and generate a bundle in the <code>docs/assets</code> directory.</li>
             <li>Commit the new bundle to git and push to GitHub.</li>
             <li>That's it! Your project is now live at: <br/><code>http://your-github-username.github.io/your-project-name</code>.</li>
           </ol>
