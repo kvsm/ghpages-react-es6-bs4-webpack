@@ -20,6 +20,9 @@ Now you can go to `src/App.jsx`, remove the sample content and get started build
 #### Features:
 
 *   **React**
+*   **Babel**: Set up for ES6; even the webpack config is ES6\. You can easily add ES7/8 support by adding the required npm modules to dev-dependencies and `.babelrc`.
 *   **webpack-dev-server (with hot reload)**: Run `npm start`. A browser window will open and will hot reload as you edit your code, without refreshing the page.
 *   **Bootstrap 4**: with webpack set up to compile your scss. I included `src/styles/_defaults.scss` for convenience; it doesn't get used, it's just a handy reference for bootstrap's defaults which you can override in `bootstrap-custom.scss`.
-*   **Babel**: Set up for ES6; even the webpack config is ES6\. You can easily add ES7/8 support by adding the required npm modules to dev-dependencies and `.babelrc`.
+*   **Font-Awesome**: with appropriate loaders set up in webpack to handle font types.
+*   **promise-polyfill**: use ES6 Promises in the browser.
+*   **whatwg-fetch**: polyfill for fetch API.
