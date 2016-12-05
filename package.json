@@ -4,7 +4,7 @@
   "description": "Example ghpages repo, configured with react, babel, bootstrap 3, sass and webpack",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --content-base docs/ --open --hot --inline",
+    "start": "webpack-dev-server --content-base docs/ --hot --inline",
     "build": "cross-env NODE_ENV=production webpack -p"
   },
   "devDependencies": {
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.5",
+    "classnames": "^2.2.5",
     "font-awesome": "^4.7.0",
     "promise-polyfill": "^6.0.2",
     "react": "^15.4.1",
