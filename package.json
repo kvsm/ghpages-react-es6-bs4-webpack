@@ -1,7 +1,7 @@
 {
   "name": "ghpages-react-es6-bs3-sass-webpack",
   "version": "0.0.1",
-  "description": "Example ghpages repo, configured with react, babel, bootstrap 3, sass and webpack",
+  "description": "Example ghpages repo, configured with react, babel, bootstrap 4, sass and webpack",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --content-base docs/ --hot --inline",
