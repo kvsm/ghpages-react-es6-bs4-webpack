@@ -1,7 +1,10 @@
 import validate from 'webpack-validator'
 
 const config = {
-  entry: './src/index.js',
+  entry: [
+    'whatwg-fetch',
+    './src/index.js'
+  ],
   output: {
     path: 'docs/assets/js/',
     publicPath: 'assets/js/',
