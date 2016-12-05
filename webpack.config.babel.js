@@ -2,7 +2,6 @@ import validate from 'webpack-validator'
 
 const config = {
   entry: [
-    'whatwg-fetch',
     './src/index.js'
   ],
   output: {
@@ -23,7 +22,13 @@ const config = {
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
-  }
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      'Promise': 'imports?this=>global!exports?global.Promise!promise-polyfill',
+      'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
+    })
+  ]
 }
 
 export default validate(config)
