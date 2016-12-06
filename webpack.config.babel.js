@@ -1,3 +1,4 @@
+import webpack from 'webpack'
 import validate from 'webpack-validator'
 
 const config = {
